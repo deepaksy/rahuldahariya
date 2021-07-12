@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+    margin: 0;
+    transition: background-color 0.5s ;
+}
+.main{
+    padding: 1px;
+    width: auto;
+    min-height: 50rem;
+    max-height: 100vh;
+    color: whitesmoke;
+    background-color: black;
+    transition: background-color 0.5s;
+
+}
