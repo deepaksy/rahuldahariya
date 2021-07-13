@@ -13,3 +13,8 @@ body{
     transition: background-color 0.5s;
 
 }
+
+.darkmode{
+    background-color: #212121;
+    box-shadow: 1px -3px 16px 0px green;
+}
