@@ -8,6 +8,7 @@ body{
     padding-top: 5%;
     width: auto;
     min-height: 50rem;
+    height: auto;
     color: whitesmoke;
     background-color: black;
     transition: background-color 0.5s;
