@@ -23,7 +23,7 @@ body{
 }
 
 .icon{
-    background-color: aliceblue;
+    padding:0px 17px;
 }
 
 #alert{
@@ -42,6 +42,10 @@ transition: display 5s;
     }
     .card{
         margin-top: 17px;
+    }
+    .icon{
+        margin: 0%;
+        padding: 5px 0px;
     }
 }
 @media (max-width:768px) {

@@ -1,7 +1,7 @@
 let themeColor="#212121";
 let n=1;
 let color='';
-let theme = '<img src="./images/sunrise.svg">';
+let theme = '<img src="./images/lightmode.svg">';
 let cardcolor = '';
 const cardcolors = {headerColor:'#323232',
     footerColor:'#44444',
@@ -20,14 +20,14 @@ function themeToggle() {
     if(n==0){
         themeColor='white';
         color='black';
-        theme='<img src="./images/sunset.svg">';
+        theme='<img src="./images/darkmode.svg">';
         n=1;
         cardcolors.bodyColor='white';
     }
     else{
         themeColor='black';
         color='white';
-        theme='<img src="./images/sunrise.svg">';
+        theme='<img src="./images/lightmode.svg">';
         n--;
         cardcolors.bodyColor='#212121';
     }
