@@ -8,11 +8,11 @@ function themeToggle() {
         n=0;
     }
     else{
-        themeColor='#212121';
+        themeColor='black';
         color='white';
         n++;
     }
-    document.body.style.backgroundColor=themeColor;
+    //document.body.style.backgroundColor=themeColor;
     document.getElementById('main').style.backgroundColor=themeColor;
     document.getElementById('main').style.color=color;
 
