@@ -21,3 +21,5 @@ function themeToggle() {
     document.getElementById('main').style.color=color;
     document.getElementById('theme').innerHTML=theme;
 }
+showoff = () => document.getElementById('alert').style.display="none";
+setTimeout(showoff, 5000);
