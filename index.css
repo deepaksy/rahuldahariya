@@ -5,6 +5,7 @@ body{
 }
 .main{
     padding: 1px;
+    padding-top: 5%;
     width: auto;
     min-height: 50rem;
     max-height: 100vh;
