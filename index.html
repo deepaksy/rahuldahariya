@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="index.js"></script>
     <title>Document</title>
 </head>
@@ -40,17 +41,13 @@
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <div id="theme" onclick="themeToggle()"><img src="./images/sunrise.svg"></div>
           </div>
         </div>
       </nav>
     <div class="container-fluid main" id="main">
        <div class="row">
            <div class="col g-5">
-            <button type="button" class="btn btn-primary" onclick="themeToggle(themeColor)">Click here</button>
             <span class="h1">Hello</span>
            </div>
            <div class="col g-5">
@@ -104,7 +101,6 @@
             <span class='h1'>This is third column of first row.</span>
         </div>
     </div>
-
     </div>
     <script src="./js/jquery.js"></script>
     <script src="./js/popper.min.js"></script>
