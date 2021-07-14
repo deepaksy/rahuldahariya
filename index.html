@@ -13,6 +13,7 @@
     <title>Test</title>
 </head>
 <body>
+  <!--Navbar-->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark darkmode">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -50,16 +51,24 @@
           </div>
         </div>
       </nav>
+      <!--Navbar End-->
       <div class="container-fluid main" id="main">
+        <!--Alert-->
         <div id="alert" class="alert alert-warning alert-dismissible fade show" role="alert">
           <strong>Hello everyone!</strong> This page is made in experiment to learn stuffs. Thanks for visiting!
-          <button type="button" onclick="showoff()" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          <button type="button"  class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <!--Alert End-->
+        <!--Grid-->
+        <div class="card" style="width: 18rem; margin:auto; margin-top: 10px; margin-bottom: 10px; border-radius: 38px; border: 2px solid pink; overflow: hidden;">
+          <img src="./images/profile.webp" class="img-fluid" alt="deepak">
         </div>
         <div class="row">
           <div class="col">
             <div class="card" id="card" style="max-width: 33rem;">
-              <div class="card-header">
-                This is header.
+              <div class="card-header" style="display:flex;">
+                <h3>Rahul Dahariya</h3>
+                <h6 style="padding: 2%;  margin-left: auto;" >Entreprenur</h6>
               </div>
               <div class="card-body">
                <h1>This is card body text.</h1>

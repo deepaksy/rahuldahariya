@@ -43,7 +43,7 @@ function themeToggle() {
     
 }
 showoff = () => document.getElementById('alert').style.display="none";//Alert trigger function.
-setTimeout(showoff, 5000);
+//setTimeout(showoff, 5000);
 
 
 function cardcolorToggle(){

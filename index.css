@@ -5,7 +5,7 @@ body{
 }
 .main{
     padding: 1px;
-    padding-top:5%;
+    padding-top:4%;
     width: auto;
     min-height: 100vh;
     height: auto;
@@ -58,19 +58,19 @@ transition: display 5s;
 }
 @media (max-width:768px) {
     #alert{
-        margin-top: 33px;
+        margin-top: 35px;
     }
     .card{
-        margin-top: 36px;
+        margin-top: 39px;
     }
 }
 @media (max-width:426px) {
     #alert{
-        margin-top: 38px;
+        margin-top: 40px;
     }
 
     .card{
-        margin-top: 40px;
+        margin-top: 45px;
     }
 }
 @media (min-width:1025px) {
