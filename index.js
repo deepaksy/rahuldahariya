@@ -14,27 +14,31 @@ const cardcolors = {headerColor:'#323232',
         n=1;
         themeToggle();
     }
+    else{
+        n=0;
+        themeToggle();
+    }
 }
 setTimeout(themeautoset,0.01);
 function themeToggle() {
     if(n==0){
         themeColor='white';
         color='black';
-        theme='<img src="./images/darkmode.svg">';
+        theme='url("./images/darkmode.svg")';
         n=1;
         cardcolors.bodyColor='white';
     }
     else{
         themeColor='black';
         color='white';
-        theme='<img src="./images/lightmode.svg">';
+        theme='url("./images/lightmode.svg")';
         n--;
         cardcolors.bodyColor='#212121';
     }
     //document.body.style.backgroundColor=themeColor;
     document.getElementById('main').style.backgroundColor=themeColor;
     document.getElementById('main').style.color=color;
-    document.getElementById('theme').innerHTML=theme;
+    document.getElementById('theme').style.backgroundImage=theme;
     cardcolorToggle();
     
 }

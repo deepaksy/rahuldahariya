@@ -19,8 +19,15 @@ body{
 }
 
 #theme{
-    color: aliceblue;
+    transition: background-image 1s;
+    min-width: 29px;
+    min-height: 33px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/darkmode.svg");
 }
+
+
 
 .icon{
     padding:0px 17px;
