@@ -23,7 +23,8 @@ body{
     min-width: 29px;
     min-height: 33px ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
+    background-position: left;
     background-image: url("./images/darkmode.svg");
 }
 
