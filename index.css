@@ -17,6 +17,32 @@ body{
 
 }
 
+.chip{
+    margin: 3px;
+    padding: 2px;
+    width: min-content;
+}
+
+.chiplogo{
+    font-size: 40px;
+    margin: auto;
+    background-color: #212121;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    padding: 12px;
+    text-align: center;
+
+}
+.chiplogo:hover{
+    opacity: 0.5;
+}
+.chiplogo a{
+    text-decoration: none;
+}
+.fa-facebook{
+    color: aliceblue;
+}
 .darkmode{
     background-color: #212121;
     box-shadow: 1px -3px 16px 0px green;
