@@ -50,7 +50,7 @@ function themeToggle() {
     
 }
 showoff = () => document.getElementById('alert').style.display="none";//Alert trigger function.
-setTimeout(showoff, 5000);
+setTimeout(showoff, 2000);
 function cardcolorToggle(){
     document.getElementById('card').style.backgroundColor=cardcolors.bodyColor;
 }
