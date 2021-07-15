@@ -9,7 +9,10 @@ body{
     width: auto;
     min-height: 100vh;
     height: auto;
-    transition: background-color 0.5s;
+    background-image: url('./images/Zig-Zag.svg');
+
+    background-blend-mode: unset;
+    transition: all 0.5s;
 
 }
 
