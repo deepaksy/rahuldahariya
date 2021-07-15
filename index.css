@@ -9,8 +9,9 @@ body{
     width: auto;
     min-height: 100vh;
     height: auto;
-    background-image: url('./images/Zig-Zag.svg');
-
+    background-image: url('./images/winter.svg');
+    background-repeat:inherit;
+    background-attachment: fixed;
     background-blend-mode: unset;
     transition: all 0.5s;
 

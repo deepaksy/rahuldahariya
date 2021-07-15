@@ -27,7 +27,7 @@ function themeToggle() {
         color='black';
         theme='url("./images/darkmode.svg")';
         n=1;
-        backimage = 'url("./images/Zig-Zag.svg")';
+        backimage = 'url("./images/Subtle-Prism.svg")';
         cardcolors.bodyColor='white';
     }
     else{
