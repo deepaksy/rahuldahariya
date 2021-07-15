@@ -12,8 +12,6 @@ const cardcolors = {headerColor:'#323232',
  function themeautoset(){
     var date = new Date();
     var hour =  date.getHours();
-    var year =  getyear.getFullYear();
-    document.getElementById('copyright').innerHTML='ksldfjls';
     if(hour>18){
         n=1;
         themeToggle();
